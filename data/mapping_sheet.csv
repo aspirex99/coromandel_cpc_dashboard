@@ -96,7 +96,7 @@ Digitrack number,Division,State,RBH NAME,ZM,Zone,TM Name,TM Headquarter,TMI CODE
 9.18049E+11,South 2,Karnataka,,,RAICHUR,,,,Vishnu,Shorapur,SHAHAPUR - 1,8123931861,PT,vishnu037@example.com,Kannada,9.18049E+11
 9.18043E+11,South 2,Karnataka,,,RAICHUR,,,,Basvaraj,Muddapur,SINDHANUR,7019562620,PT,basvaraj038@example.com,Kannada,9.18043E+11
 9.18043E+11,South 2,Karnataka,,,RAICHUR,,,,Channabasava,Gorebal,SINDHANUR,7760646273,PT,channabasava039@example.com,Kannada,9.18043E+11
-9.18043E+11,South 2,Karnataka,,,RAICHUR,,,,Malappa,Sindhanur,SINDHANUR,9916334423,PT,malappa040@example.com,Kannada,#N/A
+9.18043E+11,South 2,Karnataka,,,RAICHUR,,,,Malappa,Sindhanur,SINDHANUR,9916334423,PT,malappa040@example.com,Kannada,9.18043E+11
 9.18043E+11,South 2,Karnataka,,,RAICHUR,,,,Nagaraj,Turavihal,SINDHANUR,7829452290,PT,nagaraj041@example.com,Kannada,#N/A
 9.18043E+11,South 1,Andhra Pradesh,,,GUNTUR,,,,Krishnam Setty Venkatesh,Guntur,GUNTUR,9581644476,PT,krishnam.setty.venkatesh042@example.com,Telugu,9.18043E+11
 9.18043E+11,South 1,Andhra Pradesh,,,GUNTUR,,,,N Neelakanteswara rao,Amaravathi,GUNTUR,9059651705,PT,n.neelakanteswara.rao043@example.com,Telugu,9.18043E+11
@@ -186,7 +186,7 @@ Digitrack number,Division,State,RBH NAME,ZM,Zone,TM Name,TM Headquarter,TMI CODE
 9.18043E+11,South 1,Andhra Pradesh,,,Vijayawada,,,,K.Jayaraju,Siddantham,Tadepalligudem,9154492924,PT,k.jayaraju127@example.com,Telugu,9.18043E+11
 9.18043E+11,South 1,Andhra Pradesh,,,Vijayawada,,,,MNV Prasad,Tadepalligudem,Tadepalligudem,9347670612,PT,mnv.prasad128@example.com,Telugu,9.18043E+11
 9.18043E+11,South 1,Andhra Pradesh,,,Vijayawada,,,,R.Muralikrishna,Yernagudem,Tadepalligudem,9666424291,PT,r.muralikrishna129@example.com,Telugu,9.18043E+11
-9.18043E+11,South 1,Andhra Pradesh,,,Vijayawada,,,,Ravi,Khambampadu,Vijayawada,7569098372,PT,ravi130@example.com,Telugu,#N/A
+9.18043E+11,South 1,Andhra Pradesh,,,Vijayawada,,,,Ravi,Khambampadu,Vijayawada,7569098372,PT,ravi130@example.com,Telugu,9.18043E+11
 9.18043E+11,South 1,Andhra Pradesh,,,Vijayawada,,,,Venkatadri,Nandigama,Vijayawada,9542958632,PT,venkatadri131@example.com,Telugu,9.18043E+11
 9.18043E+11,South 1,Andhra Pradesh,,,Vijayawada,,,,a.siva,Vizianagaram,Vizianagaram,7989421689,PT,a.siva132@example.com,Telugu,#N/A
 9.18043E+11,South 1,Andhra Pradesh,,,Vijayawada,,,,venkata satish naidu,Narasannapeta,Vizianagaram,7730979027,PT,venkata.satish.naidu133@example.com,Telugu,9.18043E+11
@@ -211,7 +211,7 @@ Digitrack number,Division,State,RBH NAME,ZM,Zone,TM Name,TM Headquarter,TMI CODE
 9.18043E+11,South 1,Telangana,,,WARANGAL,,,,SRIKANTH,Relakunta,WARANGAL,8466933853,PT,srikanth152@example.com,Telugu,#N/A
 9.18043E+11,North II,Punjab,,,Bhatinda,,,,KETAN KUMAR,Abohar,Abohar,8437959000,PT,ketan.kumar153@example.com,Punjabi,9.18043E+11
 9.18043E+11,North II,Punjab,,,Bhatinda,,,,PARSHOTTAM KUMAR,Abohar,Abohar,6280798256,PT,parshottam.kumar154@example.com,Punjabi,#N/A
-9.18043E+11,North II,Punjab,,,Bhatinda,,,,Lalu Ram,Kotkapura,Bathinda,9781123501,PT,lalu.ram155@example.com,Punjabi,#N/A
+9.18043E+11,North II,Punjab,,,Bhatinda,,,,Lalu Ram,Kotkapura,Bathinda,9781123501,PT,lalu.ram155@example.com,Punjabi,9.18043E+11
 9.18043E+11,North II,Punjab,,,Bhatinda,,,,Brajesh Kumar,Muktsar,Malout,7351672703,PT,brajesh.kumar156@example.com,Punjabi,9.18043E+11
 9.18043E+11,North II,Punjab,,,Bhatinda,,,,HARDVINDAR SINGH,Mudki,Moga,9781659533,PT,hardvindar.singh157@example.com,Punjabi,9.18043E+11
 9.18043E+11,North II,Haryana,,,Hisar,,,,NIRMAL SINGH,Mandi Dabwali ,DABWALI,7293900015,PT,nirmal.singh158@example.com,Hindi,#N/A
@@ -292,7 +292,7 @@ Digitrack number,Division,State,RBH NAME,ZM,Zone,TM Name,TM Headquarter,TMI CODE
 9.18043E+11,West,Maharastra,,,NAGPUR,,,,PRASHANT THORKAR,AROLI,NAGPUR,8668443465,PT,prashant.thorkar233@example.com,Marathi,9.18043E+11
 9.18043E+11,West,Maharastra,,,NAGPUR,,,,SACHIN PADOLE,HIGNA,NAGPUR,8605729447,PT,sachin.padole234@example.com,Marathi,#N/A
 9.18043E+11,West,Maharastra,,,NAGPUR,,,,SANJAY DHONGE,PARSHIVANI,NAGPUR,7391809677,PT,sanjay.dhonge235@example.com,Marathi,9.18043E+11
-9.18043E+11,West,Maharastra,,,NAGPUR,,,,VINOD ZADE,KATOL,NAGPUR,9890488635,PT,vinod.zade236@example.com,Marathi,#N/A
+9.18043E+11,West,Maharastra,,,NAGPUR,,,,VINOD ZADE,KATOL,NAGPUR,9890488635,PT,vinod.zade236@example.com,Marathi,9.18043E+11
 9.18043E+11,West,Maharastra,,,NAGPUR,,,,RUSHIKESH PISE,CHANDURBAZAR,PARATWADA,9764500442,PT,rushikesh.pise237@example.com,Marathi,9.18043E+11
 9.18043E+11,West,Maharastra,,,NAGPUR,,,,SAGAR KAPLE,PARATWADA,PARATWADA,9096774269,PT,sagar.kaple238@example.com,Marathi,9.18043E+11
 9.18043E+11,West,Maharastra,,,NAGPUR,,,,YASH DHOLE,MORSHI,PARATWADA,8180869493,PT,yash.dhole239@example.com,Marathi,9.18043E+11
@@ -302,11 +302,11 @@ Digitrack number,Division,State,RBH NAME,ZM,Zone,TM Name,TM Headquarter,TMI CODE
 9.18043E+11,West,Maharastra,,,NAGPUR,,,,SAMIR MEGHE,WARDHA,WARDHA,7020350028,PT,samir.meghe243@example.com,Marathi,9.18043E+11
 9.18043E+11,West,Maharastra,,,NAGPUR,,,,KASHIF KHAN,PUSAD,YAVATMAL,9130961783,PT,kashif.khan244@example.com,Marathi,9.18043E+11
 9.18043E+11,West,Maharastra,,,NAGPUR,,,,SANKET SHOBHANE,YAVATMAL,YAVATMAL,8308215301,PT,sanket.shobhane245@example.com,Marathi,9.18043E+11
-9.18043E+11,West,Maharastra,,,NAGPUR,,,,VENDANT DAREKAR,Dharva,YAVATMAL,7775870916,PT,vendarnt.darekar246@example.com,Marathi,#N/A
+9.18043E+11,West,Maharastra,,,NAGPUR,,,,VENDANT DAREKAR,Dharva,YAVATMAL,7775870916,PT,vendarnt.darekar246@example.com,Marathi,9.18043E+11
 9.18043E+11,West,Maharastra,,,NASHIK,,,,ANIL WAGH MDO,NANDURBAR,DHULE,9130629548,PT,anil.wagh.mdo247@example.com,Marathi,9.18043E+11
 9.18043E+11,West,Maharastra,,,NASHIK,,,,ANKIT KUWAR,SHAHADA,DHULE,7083594898,PT,ankit.kuwar248@example.com,Marathi,9.18043E+11
 9.18043E+11,West,Maharastra,,,NASHIK,,,,VIVEK SONAWANE,SHIRPUR,DHULE,9022278410,PT,vivek.sonawane249@example.com,Marathi,9.18043E+11
-9.18043E+11,West,Maharastra,,,NASHIK,,,,JAYDIP GAWANDE,JAMNER,JALGAON,7499548829,PT,jaydip.gawande250@example.com,Marathi,#N/A
+9.18043E+11,West,Maharastra,,,NASHIK,,,,JAYDIP GAWANDE,JAMNER,JALGAON,7499548829,PT,jaydip.gawande250@example.com,Marathi,9.18043E+11
 9.18043E+11,West,Maharastra,,,NASHIK,,,,RITESH PATIL,ERANDOL,JALGAON,9322493866,PT,ritesh.patil251@example.com,Marathi,#N/A
 9.18043E+11,West,Maharastra,,,NASHIK,,,,ABHIJEET CHAVAN,JALNA,JALNA,8329578980,PT,abhijeet.chavan252@example.com,Marathi,9.18043E+11
 9.18043E+11,West,Maharastra,,,NASHIK,,,,BHAUSAHEB KAD,BHOKARDHAN,JALNA,7796802238,PT,bhausaheb.kad253@example.com,Marathi,9.18043E+11
@@ -342,8 +342,8 @@ Digitrack number,Division,State,RBH NAME,ZM,Zone,TM Name,TM Headquarter,TMI CODE
 9.18043E+11,West,Maharastra,,,PUNE,,,,PRADIP GAIKWAD,TEMBHURNI,SOLAPUR,7499749260,PT,pradip.gaikwad283@example.com,Marathi,9.18043E+11
 9.18043E+11,West,Maharastra,,,PUNE,,,,VAIBHAV CHAUDHARI,KURDUWADI,SOLAPUR,9503428599,PT,vaibhav.chaudhari284@example.com,Marathi,9.18043E+11
 9.18043E+11,West,Maharastra,,,PUNE ,,,,YOGESH KHAMBHARE,SHEVGAON,AHILYANAGAR,7770071293,PT,yogesh.khambhare285@example.com,Marathi,9.18043E+11
-9.18043E+11,West,Maharastra,7768915935,AKLUJ,PUNE,,,,VIKAS WAGHMODE,PUNE,PANDHARPUR,7768915935,PT,vikas.w47@example.com,Marathi,#N/A
-9.18043E+11,West,Maharastra,8856850066,KARAD,PUNE,,,,CHAITANYA PATIL,PUNE,SATARA,8856850066,PT,chaitanya.p82@example.com,Marathi,#N/A
+9.18043E+11,West,Maharastra,7768915935,AKLUJ,PUNE,,,,VIKAS WAGHMODE,PUNE,PANDHARPUR,7768915935,PT,vikas.w47@example.com,Marathi,9.18043E+11
+9.18043E+11,West,Maharastra,8856850066,KARAD,PUNE,,,,CHAITANYA PATIL,PUNE,SATARA,8856850066,PT,chaitanya.p82@example.com,Marathi,9.18043E+11
 9.18043E+11,West,Maharastra,9356067018,WAI,PUNE,,,,MAYUR MAHAMULKAR,PUNE,SATARA,9356067018,PT,mayur.m31@example.com,Marathi,9.18043E+11
 9.18043E+11,West,Maharastra,9579525062,VITA,PUNE,,,,NIKHIL SURYAWANSHI,PUNE,SANGLI,9579525062,PT,nikhil.s64@example.com,Marathi,9.18043E+11
 9.18043E+11,West,Maharastra,8999769889,SOLAPUR,PUNE,,,,ROHIT UMBARE,PUNE,SOLAPUR,8999769889,PT,rohit.u29@example.com,Marathi,9.18043E+11
