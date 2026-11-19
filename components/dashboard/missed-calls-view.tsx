@@ -65,7 +65,7 @@ export function MissedCallsView() {
 
     try {
       const url = `/api/missed-calls?limit=0${forceRefresh ? "&refresh=true" : ""}`;
-      const res = await fetch(url, { cache: "no-store" });
+      const res = await fetch(url, forceRefresh ? { cache: "no-store" } : undefined);
       if (res.ok) {
         const json = await res.json();
         if (json.success) {
