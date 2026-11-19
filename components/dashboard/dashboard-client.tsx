@@ -318,12 +318,16 @@ export function DashboardClient({
     }
   };
 
-  // Background Auto-Sync every 5 minutes while dashboard tab is open
+  // Background Auto-Sync: every 24 hours, and only while the tab is visible.
+  // (Was every 5 min in every open tab, re-downloading the full orders list each time —
+  // the biggest consumer of the Vercel free-tier bandwidth.) The GitHub Action already
+  // syncs daily; the Refresh button still syncs on demand.
   useEffect(() => {
     const timer = setInterval(() => {
+      if (typeof document !== "undefined" && document.visibilityState !== "visible") return;
       console.log("[AutoSync] Performing background sync with CPC API...");
       handleRefresh();
-    }, 5 * 60 * 1000); // every 5 minutes
+    }, 24 * 60 * 60 * 1000); // every 24 hours
 
     return () => clearInterval(timer);
   }, []);
