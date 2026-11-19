@@ -97,7 +97,7 @@ export async function GET(req: NextRequest) {
       limit,
       totalPages: Math.ceil(totalCount / limit),
       filterOptions: getFilterOptions(orders),
-    });
+    }, { headers: { "Cache-Control": "public, s-maxage=600, stale-while-revalidate=3600" } });
   } catch (error) {
     console.error("API error fetching orders:", error);
     return NextResponse.json({ error: "Failed to read and parse orders" }, { status: 500 });
