@@ -83,6 +83,10 @@ export async function GET(req: NextRequest) {
       totalPages: limit > 0 ? Math.ceil(totalFiltered / limit) : 1,
       filterOptions: payload.filterOptions,
       lastSyncedAt: payload.lastSyncedAt,
+    }, {
+      headers: forceRefresh
+        ? { "Cache-Control": "no-store" }
+        : { "Cache-Control": "public, s-maxage=600, stale-while-revalidate=3600" },
     });
   } catch (err: any) {
     console.error("API error fetching missed calls:", err);
