@@ -27,7 +27,7 @@ export default function DashboardPage() {
 
   return (
     <DashboardClient
-      initialOrders={orders}
+      initialOrders={[]} // full list is loaded in the browser from /orders-data.json (keeps this cached page under 20 MB)
       initialKPIs={kpis}
       initialTimeSeries={timeSeries}
       initialProducts={products}
