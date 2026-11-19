@@ -10,8 +10,10 @@ import {
 } from "@/lib/data";
 import { DashboardClient } from "@/components/dashboard/dashboard-client";
 
-// Ensure Next.js always re-evaluates at request time so committed CSV updates reflect instantly
-export const dynamic = "force-dynamic";
+// Data lives in the repo and every data commit redeploys, so the page can be served
+// from Vercel's CDN cache instead of re-rendering ~20 MB of orders on every visit.
+// (force-dynamic here was the main driver of Fast Origin Transfer usage.)
+export const revalidate = 86400; // 24 hours
 
 export default function DashboardPage() {
   const orders = getOrders();
