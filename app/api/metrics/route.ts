@@ -53,7 +53,7 @@ export async function GET(req: NextRequest) {
       stateMetrics,
       totalOrders: orders.length,
       timestamp: new Date().toISOString(),
-    });
+    }, { headers: { "Cache-Control": "public, s-maxage=600, stale-while-revalidate=3600" } });
   } catch (error) {
     console.error("API error calculating metrics:", error);
     return NextResponse.json({ error: "Failed to compute dashboard metrics" }, { status: 500 });
