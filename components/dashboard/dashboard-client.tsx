@@ -113,6 +113,29 @@ export function DashboardClient({
     }
   }, [initialOrders, initialTimestamp]);
 
+  // Load the full orders list from the static file generated at build time
+  // (served from Vercel's CDN, so it doesn't use Fast Origin Transfer).
+  useEffect(() => {
+    if (initialOrders && initialOrders.length > 0) return;
+    let cancelled = false;
+    fetch("/orders-data.json")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (cancelled || !data || !Array.isArray(data.orders)) return;
+        const hydrated: NormalizedOrder[] = data.orders.map((o: any) => ({
+          ...o,
+          createdAt: new Date(o.createdAt),
+          retailerApproveDate: o.retailerApproveDate ? new Date(o.retailerApproveDate) : null,
+        }));
+        setOrders(hydrated);
+        if (data.generatedAt) setTimestamp(data.generatedAt);
+      })
+      .catch((err) => console.warn("[Client] Failed to load orders-data.json:", err));
+    return () => {
+      cancelled = true;
+    };
+  }, [initialOrders]);
+
   // Global Filter State
   const [filterState, setFilterState] = useState<GlobalFilterState>({
     startDate: "",
